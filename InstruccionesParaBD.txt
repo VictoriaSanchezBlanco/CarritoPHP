@@ -1,0 +1,11 @@
+Holii chiquita!!
+
+Pasos a seguir para la base de datos del carrito
+
+-Borra la bases de datos que tengas en mysql y crea una desde cero llamandola "pedidos".
+-Selecciona la base de datos creada y dirigite a la opcion de importar para seleccionar el archivo que est en la carpeta "sql"
+-El siguiente paso consiste en crear un Usuario llamado vicky en el propio mysql para que puedas acceder a las bases de datos 
+-podras ver dicha configuracion en la carpeta "filesConfigurationBD" en el archivo "configuracion.xml" ya que de ahi podras sacar la clave 
+y el nombre de usuario para que los copies.
+
+Espero que esto te sirva de ayuda chiquita!!!😘😘

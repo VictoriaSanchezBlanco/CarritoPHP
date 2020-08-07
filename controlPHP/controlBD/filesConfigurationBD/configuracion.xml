@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Este archivo ha sido creado para tener unos valores por defecto para el acceso a la base de datos de los pedidos.
+    En nuestro archivo "bd.php" accederemos a los datos de este archivo y trabajaremos con estos datos para poder
+    conectarnos a la base de datos.
+-->
+
+<configuracion>
+	<ip>127.0.0.1</ip> <!-- Host donde se encuentra la base de datos. Información que usaremos para conectarnos a la base de datos -->
+    <nombre>pedidos</nombre> <!-- Nombre de la base de datos -->
+    <usuario>vicky</usuario> <!-- Usuario de la base de datos -->
+    <clave>vickysb</clave> <!-- Posible clave que podríamos asignarle al usuario para la base de datos. Puesto que root no tiene clave, no hay nada ecrito en estas etiquetas. -->
+</configuracion>

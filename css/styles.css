@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: oldlace;
+}
+
+.index-fondo {
+    background-image: url(img/productos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.jumbotron{
+    background-color: orange;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  Cabecera                                  */
+/* -------------------------------------------------------------------------- */
+.cabecera-contenido {
+    background-color: #331a00;
+    height: 7vh;
+
+    margin-bottom: 1rem;
+}
+
+.cabecera {
+    font-size: 20px;
+    height: 100%;
+    padding: 0.7rem;
+}
+
+.cabecera-usuario {
+    color: white;
+}
+
+.cabecera-usuario span {
+    color: white;
+}
+
+.cabecera a {
+    color: white;
+}
+
+.cabecera a:hover {
+    font-weight: bold;
+}
+
+.cabecera a span {
+    margin-right: 10px;
+    
+}
+
+/* -------------------------------------------------------------------------- */
+/*                            Contenido login                                 */
+/* -------------------------------------------------------------------------- */
+.contenido-login {
+    width: 100%;
+
+    padding: 2rem;
+    border-radius: 10px;
+
+    background-color: #331a00;
+    color: white;
+}
+
+.informacionDetallada:hover {
+    font-size: inherit;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                            Contenido categorías                            */
+/* -------------------------------------------------------------------------- */
+.contenido-categorias {
+    margin-top: 3rem;
+}
+
+.contenido-categorias .botonProductos {
+    width: calc(100%/3);
+    margin-top: 1rem;
+
+}
+
+.contenido-categorias .botonProductos:hover {
+    font-size: inherit;
+
+}
+
+.fondoCategoria{
+    background-color: orange;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                             Contenido productos                            */
+/* -------------------------------------------------------------------------- */
+.contenido-tabla-productos {
+    background-color: #ffffff;
+}
+
+.colortabla{
+    background-color: #331a00;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                Boton carrito                               */
+/* -------------------------------------------------------------------------- */
+.notificacionesCarrito {
+        /* background-color: #555;
+        color: white;
+        text-decoration: none;
+        padding: 15px 26px; */
+        position: relative;
+        display: inline-block;
+        /* border-radius: 2px; */
+}
+
+
+  
+.notificacionesCarrito .badge {
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: brown;
+    color: white;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                              Contenido carrito                             */
+/* -------------------------------------------------------------------------- */
+.contenido-carrito {
+    margin-top: 3rem;
+}
+
+.carrito-sinCompra {
+    margin-top: 10rem;
+}
+
+.carrito-sinCompra h1 {
+    font-size: 50px;
+    margin-bottom: 5rem;
+}
+
+.contenido-carrito .contenido-tabla-carrito {
+    margin-top: 1rem;
+    background-color: #e6ffff;
+}
+
+.contenido-carrito .contenido-carrito-procesarPedido {
+    margin-top: 1rem;
+    background-color: #F3F3F3;
+    height: 13.8vh;
+
+    border: 3px black solid;
+    border-left: dotted;
+    border-bottom: dotted;
+
+    padding: 0.8rem;
+}
+
+.contenido-carrito .contenido-carrito-procesarPedido .botonProcesarPedido{
+    margin-top: 1rem;
+    font-weight: bold;
+    /* color: white; */
+    background: rgba(243,226,199,1);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(171,120,43,1) 100%);
+}
+
+.contenido-carrito .contenido-carrito-procesarPedido a:hover{
+    color: inherit;
+}
